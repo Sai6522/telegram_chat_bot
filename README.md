@@ -8,6 +8,8 @@ To run the Telegram Weather Bot, you need to have the following installed on you
 
 - Node.js (version 10 or higher)
 - npm (Node package manager)
+- Express
+- Uptimerobot
 
 You will also need to create an account on a weather API provider to obtain an API key.
 
@@ -16,13 +18,13 @@ You will also need to create an account on a weather API provider to obtain an A
 1. Clone this repository to your local machine:
 
 ```shell
-git clone https://github.com/your-username/telegram-weather-bot.git
+git clone https://github.com/Sai9025/telegram_chat_bot.git
 ```
 
 2. Navigate to the project directory:
 
 ```shell
-cd telegram-weather-bot
+cd telegram_chat_bot
 ```
 
 3. Install the required dependencies:
@@ -52,16 +54,15 @@ Now, you can search for your bot in the Telegram app and start chatting with it.
 
 Here are the available commands:
 
-- `/current <location>`: Retrieves the current weather information for the specified location.
-- `/forecast <location>`: Retrieves the weather forecast for the specified location.
+- `/weather <location>`: Retrieves the current weather information for the specified location.
 
-For example, to get the current weather in New York City, you can send the following message to the bot:
+For example, to get the current weather in mumbai, you can send the following message to the bot:
 
 ```
-/current New York City
+/weather mumbai
 ```
 
-The bot will respond with the current weather conditions in New York City.
+The bot will respond with the current weather conditions in mumbai.
 
 ## Customization
 
@@ -82,5 +83,7 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 - [Node.js](https://nodejs.org/)
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 - [Weather API Provider](https://example.com) (Replace with the actual weather API provider you are using)
+- [Express](https://expressjs.com/)
+- [Uptimerobot](https://uptimerobot.com/)
 
 Please note that the weather API provider mentioned above is just an example. You should replace it with the actual weather API provider you are using and provide appropriate attribution if required.
